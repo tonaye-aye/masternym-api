@@ -10,7 +10,9 @@
   },
   "attributes": {
     "short": {
-      "type": "string"
+      "type": "string",
+      "unique": true,
+      "required": true
     },
     "long": {
       "type": "string"
