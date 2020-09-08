@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/acronyms",
+      "handler": "acronym.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/acronyms/count",
+      "handler": "acronym.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/acronyms/:id",
+      "handler": "acronym.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/acronyms",
+      "handler": "acronym.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/acronyms/:id",
+      "handler": "acronym.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/acronyms/:id",
+      "handler": "acronym.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "acronyms",
+  "info": {
+    "name": "Acronym"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "short": {
+      "type": "string"
+    },
+    "long": {
+      "type": "string"
+    },
+    "example": {
+      "type": "text"
+    }
+  }
+}
