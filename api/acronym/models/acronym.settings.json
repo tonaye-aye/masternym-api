@@ -15,10 +15,13 @@
       "required": true
     },
     "long": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "unique": true
     },
     "example": {
-      "type": "text"
+      "type": "text",
+      "required": true
     }
   }
 }
