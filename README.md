@@ -1,3 +1,5 @@
-# Strapi application
+# Masternym-api
 
-A quick description of your strapi application
+A headless CMS connected to MongoDB. JAMSTACK.
+
+tony
